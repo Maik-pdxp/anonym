@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './SplashScreen.module.css'
 
 export default function SplashScreen({ onConnect }) {
@@ -13,9 +14,9 @@ export default function SplashScreen({ onConnect }) {
         </button>
         <p className={styles.note}>du bist anonym — wir speichern nichts</p>
         <div className={styles.legal}>
-          <a href="/impressum" className={styles.legalLink}>Impressum</a>
+          <Link to="/impressum" className={styles.legalLink}>Impressum</Link>
           <span className={styles.legalDot}>·</span>
-          <a href="/datenschutz" className={styles.legalLink}>Datenschutz</a>
+          <Link to="/datenschutz" className={styles.legalLink}>Datenschutz</Link>
         </div>
       </div>
     </div>
