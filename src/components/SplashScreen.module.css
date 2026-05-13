@@ -72,3 +72,30 @@
   letter-spacing: 0.06em;
   text-align: center;
 }
+
+.legal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.legalLink {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-faint);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.5;
+}
+
+.legalLink:hover {
+  opacity: 1;
+}
+
+.legalDot {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-faint);
+  opacity: 0.3;
+}
