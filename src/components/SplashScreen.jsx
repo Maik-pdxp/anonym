@@ -12,6 +12,11 @@ export default function SplashScreen({ onConnect }) {
           verbinden
         </button>
         <p className={styles.note}>du bist anonym — wir speichern nichts</p>
+        <div className={styles.legal}>
+          <a href="/impressum" className={styles.legalLink}>impressum</a>
+          <span className={styles.legalDot}>·</span>
+          <a href="/datenschutz" className={styles.legalLink}>datenschutz</a>
+        </div>
       </div>
     </div>
   )
