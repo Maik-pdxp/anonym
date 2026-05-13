@@ -5,14 +5,14 @@
 }
 
 :root {
-  --bg: #0a0a0a;
-  --bg-2: #111111;
+  --bg: #000000;
+  --bg-2: #0d0d0d;
   --bg-3: #1a1a1a;
   --border: #222222;
   --border-2: #555555;
   --text-primary: #f0f0f0;
-  --text-secondary: #aaaaaa;
-  --text-muted: #777777;
+  --text-secondary: #cccccc;
+  --text-muted: #999999;
   --text-faint: #555555;
   --accent: #f0f0f0;
   --mono: 'DM Mono', monospace;
