@@ -13,9 +13,9 @@ export default function SplashScreen({ onConnect }) {
         </button>
         <p className={styles.note}>du bist anonym — wir speichern nichts</p>
         <div className={styles.legal}>
-          <a href="/impressum" className={styles.legalLink}>impressum</a>
+          <a href="/impressum" className={styles.legalLink}>Impressum</a>
           <span className={styles.legalDot}>·</span>
-          <a href="/datenschutz" className={styles.legalLink}>datenschutz</a>
+          <a href="/datenschutz" className={styles.legalLink}>Datenschutz</a>
         </div>
       </div>
     </div>
